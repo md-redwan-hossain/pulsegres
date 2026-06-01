@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Pulsegres.Worker-3d3e5e13-2539-46b4-b32a-85531e6f08bf</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.79" />
+        <PackageReference Include="Hardware.Info" Version="110.0.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.8" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.8"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="10.0.8" />
+        <PackageReference Include="Npgsql" Version="10.0.2" />
+    </ItemGroup>
+</Project>

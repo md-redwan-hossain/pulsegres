@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Pulsegres.Api/Pulsegres.Api.csproj" />
+  <Project Path="Pulsegres.Worker/Pulsegres.Worker.csproj" />
+</Solution>
